@@ -1,0 +1,13 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+  master:
+    environment: solr6-cloud
+global:
+  application_name: solr6
+  default_ec2_keyname: zookeeper
+  default_platform: Docker 1.9.1
+  default_region: us-east-1
+  profile: null
+  sc: git
